@@ -710,7 +710,7 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
 Module_Exports({
             kingcmd: "question",
             infocmd: "Random Question.",
-            kingclass: "fun",
+            kingclass: "misc",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -733,7 +733,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "joke",
             infocmd: "Sends Joke in chat.",
-            kingclass: "fun",
+            kingclass: "misc",
             kingpath: __filename,
         },
         async(Void, citel, text) => { 
@@ -747,7 +747,7 @@ citel.reply( `*𝙹𝙾𝙺𝙴:* ${joke.setup}\n*𝙿𝚄𝙽𝙲𝙷𝙻𝙸�
 Module_Exports({
             kingcmd: "joke2",
             infocmd: "Sends Joke in chat.",
-            kingclass: "fun",
+            kingclass: "misc",
             kingpath: __filename,
         },
         async(Void, citel, text) => { 
@@ -767,7 +767,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "fact",
         infocmd: "Sends fact in chat.",
-        kingclass: "fun",
+        kingclass: "misc",
         kingpath: __filename,
     },
     async(Void, citel, text) => {
@@ -780,7 +780,7 @@ Module_Exports({
     Module_Exports({
         kingcmd: "quotes",
         infocmd: "Sends quotes in chat.",
-        kingclass: "fun",
+        kingclass: "misc",
         kingpath: __filename,
     },
     async(Void, man, text) => {
@@ -823,7 +823,7 @@ Module_Exports({
 
             kingcmd: "hack",
 
-            kingclass: "fun",
+            kingclass: "misc",
 
             infocmd: "hacking prank",
 
