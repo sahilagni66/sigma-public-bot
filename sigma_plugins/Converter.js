@@ -145,7 +145,7 @@ let media  = await getBuffer(url)
     //---------------------------------------------------------------------------
  //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "stiker",
+            kingcmd: "sticker",
             shortcut: ["s"],
             infocmd: "Makes sticker of replied image/video.",
             kingclass: "sticker",
