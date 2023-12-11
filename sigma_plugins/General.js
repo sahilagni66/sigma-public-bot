@@ -117,7 +117,7 @@ Module_Exports({
           return await bot.sendMessage(man.chat, lists, {   quoted: man, });
  })
 //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
   kingcmd: "script",
   shortcut: ["git", "sc", "repo"],
   infocmd: "Sends info about repo.",
@@ -129,7 +129,7 @@ const _0x17a2f2=_0x21e6;(function(_0x9ca8c8,_0x29263d){const _0x289e2e=_0x21e6,_
 
 }
 )
-
+*/
 Module_Exports({
   kingcmd: "yt",
   shortcut: ["ytube", "link", "myyt"],
@@ -280,7 +280,7 @@ const { formatp, runtime } = require("../lib");
 })
  
 //-------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
   kingcmd: "theme",
   shortcut: ["themes"],
   infocmd: "To find all themes",
@@ -296,7 +296,7 @@ return man.reply(SIGMA_THEMES)
   
 }
 )
-
+*/
 //--------------------------------------------------------------------------
 Module_Exports({
   kingcmd: "speed",
