@@ -529,7 +529,7 @@ const buffer = await sticker.toBuffer();
 
  
 
- Module_Exports({
+ /*Module_Exports({
              kingcmd: "sigmabot",
              shortcut : ["chatbot","sbot","sigmachatbot"],
              infocmd: "activates and deactivates chatbot.\nuse buttons to toggle.",
@@ -565,7 +565,7 @@ const buffer = await sticker.toBuffer();
              }
  
  
-      })
+      }) */
      //---------------------------------------------------------------------------
  Module_Exports({
              kingcmd: "ebinary",
@@ -744,7 +744,7 @@ citel.reply( `*𝙹𝙾𝙺𝙴:* ${joke.setup}\n*𝙿𝚄𝙽𝙲𝙷𝙻𝙸�
 
 })
 //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
             kingcmd: "joke2",
             infocmd: "Sends Joke in chat.",
             kingclass: "misc",
@@ -761,7 +761,7 @@ Module_Exports({
      return citel.reply ('Error fetching joke:' + error);
   });
         }
-    )
+    ) */
 
 //---------------------------------------------------------------------------
 Module_Exports({
