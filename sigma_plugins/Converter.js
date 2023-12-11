@@ -499,7 +499,7 @@ if (!text) { text=citel.quoted.text;}
 }
 );
 //----------------------------------------------- ---------------------------
-Module_Exports({
+/*Module_Exports({
     kingcmd: "paste",
     infocmd: "create paste of text.",
     kingclass: "converter",
@@ -513,7 +513,7 @@ return citel.reply(`*Paste created on telegraph*\nName:${util.format(data.result
 );
 
 
-Module_Exports({
+/*Module_Exports({
 
     kingcmd: "attp1",
 
