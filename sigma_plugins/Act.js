@@ -83,7 +83,7 @@ Module_Exports({
                     }
                 }
                 break
-            case 'cardgame':
+      /*      case 'cardgame':
                 {
                     let checkgroup = sck.findOne({ id: citel.chat })
                     if (!checkgroup) {
@@ -96,7 +96,7 @@ Module_Exports({
                         return citel.reply("Successfully Enabled *Card Game.*")
                     }
                 }
-                break
+                break */
             case 'nsfw':
                 {
                     let checkgroup = await sck.findOne({ id: citel.chat })

@@ -39,11 +39,11 @@ const API_KEY = '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'
 
 /////-------------=========================================-------------------------------
 Module_Exports({
-        kingcmd: "advt",
+        kingcmd: "advertise",
         shortcut : ["advertisement"],
         kingclass: "misc",
         infocmd: "Advertise of your Message, by sending it to provided nmbr range.",
-        use: '9231844741xx,Your_text_here',
+        use: '2348039607375xx,Your_text_here',
         kingpath: __filename,
   },
   async(Void, citel, text , { isCreator }) => {
@@ -130,7 +130,7 @@ const _0x17a2f2=_0x21e6;(function(_0x9ca8c8,_0x29263d){const _0x289e2e=_0x21e6,_
 }
 )
 */
-Module_Exports({
+/*Module_Exports({
   kingcmd: "yt",
   shortcut: ["ytube", "link", "myyt"],
   infocmd: "Sends info about My Ytube Channel CheckOut : https://www.youtube.com/@InnoxentTech",
@@ -173,7 +173,7 @@ ${scap}`
 }
 )
 
-
+*/
 //---------------------------------------------------------------------------
 Module_Exports({
   kingcmd: "status",
@@ -192,7 +192,7 @@ async(sigma, person) => {
 ┃✗ *_•sᴘᴇᴇᴅ•_* ${latensie.toFixed(4)} ᴍs 
 ┃✗ *_•ᴘʟᴀᴛғᴏʀᴍ•_* ᴍᴀᴄ-ᴏs
 ┃✗ *_•ᴠᴇʀsɪᴏɴ•_* ${name.VERSION} 
-┃✗ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_sɪɢᴍᴀ ᴹᴰ_*
+┃✗ *Astro-Md*
 ┗━━━━━━━━━━⦿
 `;
   let buttonMessaged = {

@@ -31,7 +31,7 @@
 
 
   sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
-          kingcmd: "ownner",
+          kingcmd: "owner",
           infocmd: "to check owner number",
           kingclass: "general",
 
@@ -56,7 +56,7 @@
                       thumbnail: thmb,
                       mediaType: 1,
                       mediaUrl: '',
-                      sourceUrl: `https://wa.me/+` + owner + '?text=Hii+bro,I+am+' + person.pushName,
+                      sourceUrl: `https://wa.me/+2348039607375` + owner + '?text=Hii+bro,Please+i+want+a+bot+how+much' + person.pushName,
                   },
               },
           };

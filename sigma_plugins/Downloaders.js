@@ -296,7 +296,7 @@ async(sigma, person, memo) => {
 
     //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "music",
+            kingcmd: "tiktokmusic",
             infocmd: "Downloads tiktok music.",
             kingclass: "downloader",
             kingpath: __filename,
@@ -333,7 +333,7 @@ Module_Exports({
 })
 
     //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
             kingcmd: "ringtone",
             infocmd: "Downloads ringtone.",
             kingclass: "downloader",
@@ -365,11 +365,11 @@ Module_Exports({
         },
 		}
 	return bot.sendMessage(citel.chat,buttonMessage, { quoted: citel } )
-})
+}) */
 
     //---------------------------------------------------------------------------
     Module_Exports({
-        kingcmd: "pint",
+        kingcmd: "pintrest",
         desc: "Downloads image from pinterest.",
         category: "downloader",
         filename: __filename,
@@ -523,7 +523,7 @@ let result4 = ` *Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
         let yts = require("secktor-pack");
         if (!memo) return person.send(`Example: ${prefix}yts surah Rehman`);
         let search = await yts(memo);
-        let memot = "*sɪɢᴍᴀ ᴹᴰ* *ʏᴏᴜ-ᴛᴜʙᴇ sᴇᴀʀᴄʜ*\n\n *_Search Result From_* " + memo + "\n\n*✯────────────────────✯*\n\n";
+        let memot = "*Astro* *ʏᴏᴜ-ᴛᴜʙᴇ sᴇᴀʀᴄʜ*\n\n *_Search Result From_* " + memo + "\n\n*✯────────────────────✯*\n\n";
         let no = 1;
         for (let i of search.all) {
             memot += `*𝚃𝙸𝚃𝙻𝙴* : ${i.title}\n*𝚅𝙸𝙴𝚆𝚂* : ${i.views}\n*𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽* : ${

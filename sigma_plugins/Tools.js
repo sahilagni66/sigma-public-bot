@@ -36,7 +36,7 @@ async(sigma, person) => {
 }
 );
 //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
         kingcmd: "plugins",
         shortcut :['plugin',"plist"],
         kingclass: "tools",
@@ -53,9 +53,9 @@ Module_Exports({
 
     }
 )
-
+*/
 //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
         kingcmd: "remove",
         shortcut :['uninstall'],
         kingclass: "tools",
@@ -114,4 +114,4 @@ Module_Exports(
 
 
 
-
+*/

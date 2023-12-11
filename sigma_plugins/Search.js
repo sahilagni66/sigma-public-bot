@@ -93,7 +93,7 @@ catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
 
     //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "imdb",
+            kingcmd: "movie",
             kingclass: "search",
             infocmd: "Sends image of asked Movie/Series.",
             use: 'kingsman',
@@ -146,7 +146,7 @@ const _0x51287e=_0x8f43;(function(_0x208e10,_0x52e448){const _0xb617f6=_0x8f43,_
         }
 )
     //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
             kingcmd: "horo",
             kingclass: "search",
             infocmd: "Gives horoscope info of user.",
@@ -198,7 +198,7 @@ const _0x485f13=_0xc8fc;(function(_0xea9292,_0x3f139b){const _0x213a89=_0xc8fc,_
 
 
 })
-
+*/
 //---------------------------------------------------------------------------
 Module_Exports({
             kingcmd: "google",
@@ -310,7 +310,7 @@ else return citel.reply("*Google Images Not Working, Try it Later*");
             */
  })
     //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
             kingcmd: "couplepp",
             shortcut:["cpp"],
             kingclass: "search",
@@ -415,7 +415,7 @@ if(!nobios){ nobio = ''; } else {nobio += nobios+'\n' ;}
 return await citel.reply(`${nobio}${nowhatsapp}*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`);
   
 })
-
+*/
 // These Search Commands are Developed By @Maher-Zubair
 // Whatsapp +923466319114
 // Usage And CopyRights Are Reserved

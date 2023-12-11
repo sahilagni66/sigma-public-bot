@@ -23,7 +23,7 @@ const cheerio = require('cheerio')
 const axios= require('axios');
 
 Module_Exports({
-    kingcmd: "insta",
+    kingcmd: "instagram",
     shortcut: ["ig","igdl","instagram"],
     infocmd: "download instagram videos",
     kingclass: "downloader",

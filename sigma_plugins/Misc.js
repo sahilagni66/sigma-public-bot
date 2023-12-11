@@ -371,7 +371,7 @@ const vcard = 'BEGIN:VCARD\n' +
      )
      //---------------------------------------------------------------------------
  Module_Exports({
-             kingcmd: "mee",
+             kingcmd: "walink",
              infocmd: "Makes wa me for user.",
              kingclass: "user",
              kingpath: __filename
@@ -672,7 +672,7 @@ async(Void, citel, text,{isCreator}) => {
 })   
 } // if Statements
      //---------------------------------------------------------------------------
- /*
+ 
  Module_Exports({
              kingcmd: "antispam",
              infocmd: "Kick Spamers From Group.\nuse buttons to toggle.",
@@ -706,7 +706,7 @@ if (checkgroup.antispam == "true") return citel.reply(`Antispam : kick Users Who
 else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispam is Disabled in this Group \n *_For Enablling Antispam : ${prefix}antispam on_*`);
          
  })
- */
+ 
 Module_Exports({
             kingcmd: "question",
             infocmd: "Random Question.",
@@ -798,7 +798,7 @@ return man.reply(replyf)
     Module_Exports({
         kingcmd: "define",
         infocmd: "urban dictionary.",
-        kingclass: "fun",
+        kingclass: "misc",
         kingpath: __filename,
     },
     async(Void, citel, text) => {

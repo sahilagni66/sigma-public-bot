@@ -42,7 +42,7 @@ async function updateHerokuApp() {
 
   
 //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
             kingcmd: "update",
             shortcut: ["ud"],
             infocmd: "Shows repo\'s refreshed commits.",

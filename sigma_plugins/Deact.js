@@ -98,7 +98,7 @@
                         }
                     }
                     break
-                case 'nsfw':
+          /*      case 'nsfw':
                     {
                         let checkgroup = await sck.findOne({ id: citel.chat })
                         if (!checkgroup) {
@@ -112,10 +112,10 @@
                             return
                         }
                     }
-                    break
+                    break */
                 default:
                     {
-                        citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-nsfw\n4-cardgame")
+                        citel.reply("Please provide me term like.\n1-events\n2-antilink\n4-cardgame")
                     }
          }
      }

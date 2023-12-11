@@ -122,7 +122,7 @@ Module_Exports({
     //---------------------------------------------------------------------------
 
 
-Module_Exports({
+/*Module_Exports({
             kingcmd: "shell",
             kingclass: "owner",
             kingpath: __filename,
@@ -158,7 +158,7 @@ Module_Exports({
                } catch (err) { return  await citel.reply(err.toString()); }
 })
   
-
+*/
 //---------------------------------------------------------------------------
 /*Module_Exports({
             kingcmd: "delnote",

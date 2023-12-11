@@ -116,7 +116,7 @@ else return citel.reply("```This is Not A ViewOnce Message```")
  //---------------------------------------------------------------------------
  //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "attp",
+            kingcmd: "vsticker",
 
             infocmd: "Makes sticker of replied image/video.",
             kingclass: "sticker",
@@ -192,7 +192,7 @@ if(mime =="videoMessage")
         }
     )
  //---------------------------------------------------------------------------
-Module_Exports({
+/*Module_Exports({
             kingcmd: "circle",
             shortcut: ["circlestic","circlesticker","cs"],
             infocmd: "Makes sticker of replied image/video.",
@@ -288,9 +288,9 @@ kingpath: __filename,
         }
     )
 //---------------------------------------------------------------------------
-
+*/
 Module_Exports({
-            kingcmd: "memegen",
+            kingcmd: "memes",
             infocmd: "Write text on quoted image.",
             kingclass: "sticker",
             kingpath: __filename,
@@ -333,7 +333,7 @@ Module_Exports({
  //---------------------------------------------------------------------------
  //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "quotely",
+            kingcmd: "txtsticker",
             infocmd: "Makes Sticker of quoted text.",
             shortcut: ["q"],
             kingclass: "sticker",
@@ -390,16 +390,16 @@ Module_Exports({
             kingcmd: "fancy",
             infocmd: "Makes stylish/fancy given text",
             kingclass: "converter",
-            use: '56 SIGMA MD',
+            use: '56 ASTRO MD',
             //react: "✅",
             kingpath: __filename
         },
         async(sigma, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    `*_fancy text generator_*\n★━━━━━━━━━━━━━━━━━━━━━★\n*example: ${prefix}fancy 32 _i am sigma male_*\n★━━━━━━━━━━━━━━━━━━━━━★\n\n`
+                    `*_fancy text generator_*\n★━━━━━━━━━━━━━━━━━━━━━★\n*example: ${prefix}fancy 32 _i am astro_*\n★━━━━━━━━━━━━━━━━━━━━━★\n\n`
                 );
-                listall("SIGMA MD").forEach((txt, num) => {
+                listall("ASTRO MD").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
@@ -412,7 +412,7 @@ Module_Exports({
     )
     //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "tiny",
+            kingcmd: "tinyurl",
             infocmd: "Makes url tiny.",
             kingclass: "converter",
             use: 'www.google.com',
@@ -462,7 +462,7 @@ if (mime =="audioMessage" || mime =="videoMessage")
 )
      //---------------------------------------------------------------------------
 Module_Exports({
-    kingcmd: "toMp4",
+    kingcmd: "tomp4",
     shortcut:['mp4','tovideo','tovid'],
     infocmd: "changes type to audio.",
     kingclass: "converter",
@@ -529,7 +529,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.erdwpe.com/api/maker/attp?text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'ASTRO-MD',author:'ASTRO'},"sticker") 
 
 }
 
@@ -537,7 +537,7 @@ return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker")
 
 
 
-Module_Exports({
+/*Module_Exports({
 
     kingcmd: "attp2",
 
@@ -702,3 +702,4 @@ return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker")
 }
 
 )
+*/
