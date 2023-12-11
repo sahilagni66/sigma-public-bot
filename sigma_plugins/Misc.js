@@ -402,29 +402,6 @@ const vcard = 'BEGIN:VCARD\n' +
          }
      )
      //---------------------------------------------------------------------------
- Module_Exports({
-             kingcmd: "cnsfw",
-             infocmd: "activates and deactivates nsfw.\nuse buttons to toggle.",
-             kingclass: "misc",
-             kingpath: __filename
-         },
-         async(Void, citel, text,{isCreator}) => {
-             let checkgroup = await sck.findOne({ id: citel.chat })
-             if (!citel.isGroup) return citel.reply(tlang().group);
-             const groupAdmins = await getAdmin(Void, citel)
-             //const botNumber = await Void.decodeJid(Void.user.id)
-            // const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
-             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
-             if(isCreator){}
-  else if (!isAdmins) return citel.reply(tlang().admin)
-             //if (!isBotAdmins) return citel.reply(tlang().botadmin)
-            
-  
-  
-             if (checkgroup.nsfw == "true") return citel.reply(`*_NSFW is Enabled in This Current Chat_*\n*_To Deactive 18+ Commands type ${prefix}deact nsfw_*`);
-             else return citel.reply(`*_NSFW is Disabled in This Current Chat_*\n*_To Active 18+ Commands type ${prefix}act nsfw_*`);
- }
-     )
      //---------------------------------------------------------------------------
  Module_Exports({
              kingcmd: "npm",
@@ -730,6 +707,16 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
          
  })
  */
+Module_Exports({
+            kingcmd: "question",
+            infocmd: "Random Question.",
+            kingclass: "fun",
+            kingpath: __filename,
+        },
+        async(Void, citel, text) => {
+            return await citel.reply(`${random_question()}`);
+        }
+    )
      //---------------------------------------------------------------------------
      Module_Exports({
         kingcmd: "antilink",
@@ -742,6 +729,189 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
 
 
 }) 
+
+Module_Exports({
+            kingcmd: "joke",
+            infocmd: "Sends Joke in chat.",
+            kingclass: "fun",
+            kingpath: __filename,
+        },
+        async(Void, citel, text) => { 
+
+const response =await  fetch('https://official-joke-api.appspot.com/random_joke');
+  const joke= await response.json();
+citel.reply( `*𝙹𝙾𝙺𝙴:* ${joke.setup}\n*𝙿𝚄𝙽𝙲𝙷𝙻𝙸𝙽𝙴:*  ${joke.punchline}`);
+
+})
+//---------------------------------------------------------------------------
+Module_Exports({
+            kingcmd: "joke2",
+            infocmd: "Sends Joke in chat.",
+            kingclass: "fun",
+            kingpath: __filename,
+        },
+        async(Void, citel, text) => { 
+ 
+         fetch('https://v2.jokeapi.dev/joke/Any?type=single')
+         .then(response => response.json())
+         .then(data => {
+         citel.reply(`*𝙹𝙾𝙺𝙴:* ${data.joke}`); 
+  })
+  .catch(error => {
+     return citel.reply ('Error fetching joke:' + error);
+  });
+        }
+    )
+
+//---------------------------------------------------------------------------
+Module_Exports({
+        kingcmd: "fact",
+        infocmd: "Sends fact in chat.",
+        kingclass: "fun",
+        kingpath: __filename,
+    },
+    async(Void, citel, text) => {
+        const { data } = await axios.get(`https://nekos.life/api/v2/fact`)
+        return citel.reply(`*𝙵𝙰𝙲𝚃:* ${data.fact}`)   
+    }
+
+)
+    //---------------------------------------------------------------------------
+    Module_Exports({
+        kingcmd: "quotes",
+        infocmd: "Sends quotes in chat.",
+        kingclass: "fun",
+        kingpath: __filename,
+    },
+    async(Void, man, text) => {
+        var quoo = await axios.get(`https://favqs.com/api/qotd`)
+        const replyf = `
+┏━━⟪⟪ ${mztit} ⟫━⦿
+┃✗ *•𝙲𝙾𝙽𝚃𝙴𝙽𝚃•* ${quoo.data.quote.body}
+┃✗ *•𝙰𝚄𝚃𝙷𝙾𝚁•* ${quoo.data.quote.author}  
+┗━━━━━━━━━━⦿ `
+return man.reply(replyf)
+    }
+ 
+)
+    //---------------------------------------------------------------------------
+    Module_Exports({
+        kingcmd: "define",
+        infocmd: "urban dictionary.",
+        kingclass: "fun",
+        kingpath: __filename,
+    },
+    async(Void, citel, text) => {
+        try{
+            let { data } = await axios.get(`http://api.urbandictionary.com/v0/define?term=${text}`)
+            var textt = `
+            *𝚆𝙾𝚁𝙳:* ${text}
+            *𝙳𝙴𝙵𝙸𝙽𝙸𝚃𝙸𝙾𝙽:* ${data.list[0].definition.replace(/\[/g, "").replace(/\]/g, "")}
+            *𝙴𝚇𝙰𝙼𝙿𝙻𝙴:* ${data.list[0].example.replace(/\[/g, "").replace(/\]/g, "")}`
+            return citel.reply(textt)
+                    } catch {
+                        return citel.reply(`No result for ${text}`)
+                    }
+    }
+)
+//------------------------------------------------------------------------
+
+
+//---------------------------------------------------------------------------
+
+Module_Exports({
+
+            kingcmd: "hack",
+
+            kingclass: "fun",
+
+            infocmd: "hacking prank",
+
+            use: ' ',
+
+            kingpath: __filename,
+
+        },
+
+        async(Void,citel, text) => {
+
+citel.reply("```Injecting malware```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n 0%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ 10%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ 20%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ 30%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ 40%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ █ 50%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ █ █ 60%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ █ █ █ 70%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ █ █ █ █ 80%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ █ █ █ █ █ 90%```")
+
+await sleep(1000)
+
+citel.reply("```Injecting malware \n █ █ █ █ █ █ █ █ █ █ 100%```")
+
+await sleep(1000)
+
+citel.reply("```System hyjacking on process.. \n Conecting to Server error to find 404 ```")
+
+await sleep(1000)
+
+citel.reply("```Divice successfully connected... \n Riciving data...```")
+
+await sleep(1000)
+
+citel.reply("```Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```")
+
+await sleep(1000)
+
+citel.reply("``` HACKING COMPLETED ```")
+
+await sleep(1000)
+
+citel.reply("``` SENDING LOG DOCUMENTS...```")
+
+await sleep(1000)
+
+citel.reply("``` SUCCESSFULLY SENT DATA AND Connection disconnected```")
+
+await sleep(1000)
+
+            return citel.reply('*BACKLOGS CLEARED*');
+
+        }
+
+    )
      //---------------------------------------------------------------------------
  Module_Exports({ on: "body" }, async(Void, citel) => {
    if (!name.autoreaction) return 
@@ -768,7 +938,3 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
      }
  
  })
-
- // All These Misc Commamnds Are Developed By @Maher-Zubair
- // Whatsapp +923466319114
- // Usage And CopyRights Are Reserved
