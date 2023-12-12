@@ -61,17 +61,3 @@ mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w
   <a href="#">
     <img alt=Support height="90" src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
   </p>
-    
- ## ```𝘛𝘢𝘱 𝘈𝘯𝘺 𝘓𝘖𝘎𝘖 𝘛𝘰 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘔𝘦```
- <p align="centre">
-  <a href="mailto:HELP_SIGMA-MD@outlook.com">
-    <img src="https://i.ibb.co/Kx8NXxT/mail-gmail-22737.png" align="centre" width="90" />
-   <a href="https://wa.me/923466319114?text=Hi%20Maher-Zubair%20Sir...%20I%20need%20some%20help%20in%20SIGMA-MD">
-    <img src="https://i.ibb.co/2MLVZwm/whatsapp-logo-icon-181644.png" align="centre" width="90" />
-
-##
-
-- ***Star ⭐ My Repo If You Like This Bot.***
-
-- ***The [SIGMA-MD](https://github.com/Astropeda/SIGMA-MD) is Made Under The [`GPL-3 license`](https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENCE).***
-
