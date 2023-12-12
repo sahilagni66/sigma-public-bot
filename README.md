@@ -3,7 +3,7 @@
 </p>
 <p align="center">
   <a href="#">
-    <img alt=Support height="500" width="800" src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
+    <img alt=Support height="200" width="500" src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
     </p>
     <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins+Display&weight=500&size=34&duration=3500&pause=1000&color=F7F7F7&center=true&width=435&lines=Astro-Md;Multi-Device+Whatsapp+Bot;Made+in+2023." alt="Typing SVG" /></a>
