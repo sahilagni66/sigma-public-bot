@@ -1,8 +1,8 @@
 
-<h1 align="center"> sɪɢᴍᴀ ᴹᴰ </h1>
+<h1 align="center"> Astro ᴹᴰ </h1>
 </p>
 <p align="center">
-  <a href="https://www.youtube.com/@InnoxentTech">
+  <a href="#">
     <img alt=Support height="350" src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
     </p>
     <p align="center">
@@ -34,21 +34,6 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{Maher-Zubair}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
 
-## ***Bot Features***
----
-1. ***Game Menu.***
-2.  ***Multi-Themes Supported.***
-3.  ***Huge Logo Maker Menu.***
-4. ***Group Management Commands.***
-5.  ***Photo Editor Menu.***
-6.  ***Ban Protection.***
-7.  ***Multi-Device Supported.***
-8.  ***350+ Commands.***
-##
-
-
-
-
 
 
 ## `𝘋𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘔𝘦𝘵𝘩𝘰𝘥𝘴`
@@ -73,8 +58,8 @@ mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w
 ***Subscribe MY YouTube Channel***
 </p>
 <p align="left">
-  <a href="https://www.youtube.com/@InnoxentTech?sub_confirmation=1">
-    <img alt=Support height="90" src="https://telegra.ph/file/eb6347e2764939fbbd35d.png"> 
+  <a href="#">
+    <img alt=Support height="90" src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
   </p>
     
  ## ```𝘛𝘢𝘱 𝘈𝘯𝘺 𝘓𝘖𝘎𝘖 𝘛𝘰 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘔𝘦```
@@ -88,15 +73,5 @@ mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w
 
 - ***Star ⭐ My Repo If You Like This Bot.***
 
-- ***The [SIGMA-MD](https://github.com/Maher-Zubair/SIGMA-MD) is Made Under The [`GPL-3 license`](https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENCE).***
+- ***The [SIGMA-MD](https://github.com/Astropeda/SIGMA-MD) is Made Under The [`GPL-3 license`](https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENCE).***
 
-### `𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘛𝘩𝘢𝘯𝘬𝘴 𝘛𝘰`
-- ***[Suhail Tech Info](https://github.com/SuhailTechInfo)***
-- ***[Diegoson Tech](https://github.com/DiegosonTech)***
-- ***[Sam Pandey](https://github.com/SamPandey001)***
-##
-## ```𝘓𝘦𝘨𝘢𝘭 𝘋𝘪𝘴𝘤𝘭𝘢𝘪𝘮𝘦𝘳```
-- *I will only Assist You in Bot Deployment and Hosting, Not in Bot Development*
-- *If You Modify The Bot And Face Any Issue, I will not Responsible Because It is not Possible For Me To Help Everyone*
-- *This Bot is For Fun and Educational Purpose, I will not Responsible If You Spam and Misuse It*
-- ***Regards [Maher-Zubair](https://github.com/Maher-Zubair)***
