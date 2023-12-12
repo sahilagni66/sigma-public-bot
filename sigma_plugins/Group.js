@@ -1124,7 +1124,7 @@ Module_Exports({
     ${text ? "≡ bot :" + text : ""}
 ┏━━ *_•𝙰𝙳𝙼𝙸𝙽𝚂•_* ━⦿
 ${listAdmin}
-┗━━━━━━━━━━⦿\n*_⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ sɪɢᴍᴀ ᴹᴰ_*
+┗━━━━━━━━━━⦿\n*_⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ Astro ᴹᴰ_*
     `.trim()
     return await bot.sendMessage(man.chat,{text : tag ,mentions: [man.sender, ...groupAdmins.map(v => v.id) ,]} ,)
     
