@@ -3,30 +3,11 @@
 </p>
 <p align="center">
   <a href="#">
-    <img alt=Support height="350" src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
+    <img alt=Support src="https://leadier-umbrellas.000webhostapp.com/pic5.jpg"> 
     </p>
     <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=34&duration=3500&pause=1000&color=F7F7F7&center=true&width=435&lines=Welcome+To+SIGMA-MD;Multi-Device+Whatsapp+Bot;Developed+By+Maher+Zubair;Released+Date+1%2F10%2F2023." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins+Display&weight=500&size=34&duration=3500&pause=1000&color=F7F7F7&center=true&width=435&lines=Astro-Md;Multi-Device+Whatsapp+Bot;Made+in+2023." alt="Typing SVG" /></a>
   </p>
-
-<p align="center">
-  <a href="https://github.com/Maher-Zubair/SIGMA-MD/fork">
-    <img src="https://img.shields.io/github/forks/Maher-Zubair/SIGMA-MD?label=Fork&style=social">
-    
-    
-  <a href="https://github.com/Maher-Zubair/SIGMA-MD/stargazers"> 
-    <img src="https://img.shields.io/github/stars/Maher-Zubair?style=social">
-  </a>
-
-</p>
-
-
-<p align="center">
-<a href="https://github.com/Maher-Zubair"><img title="Owner" src="https://img.shields.io/badge/Owner-Maher Zubair-black.svg?style=for-the-badge&logo=github" width="173px" height="29"></a>
-
- <a href="https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENCE">
-
-<p align="center"><img src="https://profile-counter.glitch.me/{Maher-Zubair}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
 
 
 
